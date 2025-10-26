@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#071024" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <title>Sandeep Majji — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="logo">Sandeep Majji</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+            <h1>Sandeep Majji</h1>
+            <p class="tag">Software Engineer • Web Developer • Problem Solver</p>
+            <div class="hero-cta">
+              <a class="btn" href="#projects">See projects</a>
+              <a class="btn btn-outline" href="#contact">Contact</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-photo">
+          <img src="san.jpg" alt="Sandeep Majji" class="profile-photo">
+        </div>
+        <div class="about-text">
+          <h3>Hello! I'm Sandeep Majji</h3>
+          <p>I'm an enthusiastic developer with a strong interest in Machine Learning and Data Analytics. I enjoy turning raw data into meaningful insights and building intelligent systems that make decision-making easier.</p>
+<p>My technical skills include Python, Java, Pandas, NumPy, scikit-learn, and data visualization tools like Matplotlib. I also have experience in backend development using Flask and database management with SQL and NoSQL.</p>
+<p>I’m passionate about solving real-world problems through data-driven approaches and continuously exploring new techniques in AI, analytics, and automation to enhance my learning and impact.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-python skill-icon"></i>
+          <h3>Python Development</h3>
+          <p>Data Structures & Algorithms, Python Libraries (Pandas, NumPy, Matplotlib), Regular Expressions</p>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-java skill-icon"></i>
+          <h3>Java</h3>
+          <p>Object-Oriented Programming, Application Development, Core Java Concepts</p>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-html5 skill-icon"></i>
+          <h3>Web Technologies</h3>
+          <p>HTML5, CSS3, Responsive Design, Web Development Fundamentals</p>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-microchip skill-icon"></i>
+          <h3>Core CS Concepts</h3>
+          <p>Operating Systems, Computer Networks, Database Management Systems (DBMS)</p>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-database skill-icon"></i>
+          <h3>Database Technologies</h3>
+          <p>SQLite, NoSQL, Database Design, Query Optimization</p>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-users skill-icon"></i>
+          <h3>Collaboration & Tools</h3>
+          <p>Team Projects, Hackathons, Development Tools, Problem-Solving</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <article class="job">
+        <h3>Internship — Machine Learning (Diabetes Detection)</h3>
+        <p class="meta">Jul 2025 – Aug 2025</p>
+        <ul>
+          <li>Developed an ML model to predict diabetes using healthcare datasets and scikit-learn.</li>
+          <li>Applied data preprocessing, feature engineering, and model evaluation to improve accuracy.</li>
+          <li>Built a simple interface for patient data input and prediction results.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Deloitte Australia — Data Analytics (Forage simulation)</h3>
+        <p class="meta">Jun 2025</p>
+        <ul>
+          <li>Completed a Deloitte job simulation focused on data analysis and forensic technology.</li>
+          <li>Created a data dashboard using Tableau and used Excel for classification and business conclusions.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Hackathons &amp; College Projects</h3>
+        <p class="meta">2024 – 2025</p>
+        <ul>
+          <li>Smart India Hackathon (National): TravelTechTitans — built a real-time personalized travel assistant.</li>
+          <li>CBIT Hacktober Fest: developed an e-commerce platform with authentication, cart management and admin dashboard.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project">
+          <h3>Complexity Analyzer</h3>
+          <p>Static code analysis tool that estimates time and space complexity for Python and Java programs by parsing ASTs and custom token parsing; exposes results via a Flask REST API and uses Pandas for result processing.</p>
+          <p><a href="https://github.com/Majjisandeep/Complexity-Analyzer" target="_blank" rel="noopener">View on GitHub</a></p>
+        </div>
+
+        <div class="project">
+          <h3>AGRO MARKET</h3>
+          <p>Platform connecting farmers and merchants; integrated web scraping for real-time pricing and used SQLite for storage. Visualized trends with Matplotlib and Pandas. (Environment: Google Colab)</p>
+          <p><a href="https://colab.research.google.com/drive/1gESxLoApzMqaDkFd3GYaay7LK0aNNz5z?usp=sharing" target="_blank" rel="noopener">View on Colab</a></p>
+        </div>
+
+        <div class="project">
+          <h3>Bike Rental System</h3>
+          <p>Backend system for bike rentals with pickup/return across locations; implemented using Python and SQLite, with linked-list logic for availability tracking and Pandas for analysis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section achievements">
+      <h2>Achievements</h2>
+      <div class="achievements-grid">
+        <div class="achievement">
+          <i class="fas fa-laptop-code achievement-icon"></i>
+          <div class="achievement-content">
+            <h3>DSA Problem Solving</h3>
+            <p>Solved 200+ problems on LeetCode, demonstrating strong problem-solving and algorithmic skills.</p>
+          </div>
+        </div>
+        <div class="achievement">
+          <i class="fas fa-graduation-cap achievement-icon"></i>
+          <div class="achievement-content">
+            <h3>Academic Excellence</h3>
+            <p>Achieved CGPA 9.17, reflecting strong academic consistency and dedication.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <i class="fas fa-users-gear achievement-icon"></i>
+          <div class="achievement-content">
+            <h3>Team Achievement</h3>
+            <p>Won a college-level COSC Debugging Hunt, solving bugs and submitting clues efficiently, demonstrating teamwork, analytical thinking, and problem-solving under pressure</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <i class="fas fa-ranking-star achievement-icon"></i>
+          <div class="achievement-content">
+            <h3>EAMCET Excellence</h3>
+            <p>Secured Rank 3362 out of 2,00,000+ candidates, showcasing consistent academic performance and analytical ability.</p>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+  <h2>Contact</h2>
+  <p>If you'd like to work together: 
+    <a href="mailto:majjisandeep424@gmail.com">majjisandeep424@gmail.com</a>
+  </p>
+  <p>Connect with me on: 
+    <a href="https://github.com/Majjisandeep" target="_blank" rel="noopener noreferrer">GitHub</a>, 
+    <a href="https://www.linkedin.com/in/sandeep-majji-3128a4288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </p>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Sandeep Majji</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
